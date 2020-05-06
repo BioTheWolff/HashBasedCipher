@@ -1,7 +1,7 @@
 from .generation import HashBasedGeneration
 
 
-class Encipher:
+class Decipher:
 
     __ciphered_message = None
     __final_message = None
