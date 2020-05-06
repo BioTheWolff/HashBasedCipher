@@ -34,6 +34,7 @@ more than once.
 
 ## How to use
 
+### In file
 It's really *that* simple!
 
 just import the class you'd want to use (`from HashBasedCipher.encipher import Encipher` or 
@@ -42,3 +43,12 @@ then use `process()` on the class instance you created!
 
 For later referencing, you can always access the message, whether it is enciphered or deciphered, by using the
 `message` property of the instance (which will return `None` if no process has already been done)
+
+### CLI (Command Line Interface)
+You can use the module with command line, using `py -m HashBasedCipher <method> <key> <message>`
+
+`method` is either `encipher` or `decipher`,
+
+`key` is the key you want to encipher/decipher the message with,
+
+`message` is the message, either ciphered or in plain text
